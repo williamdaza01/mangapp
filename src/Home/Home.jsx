@@ -8,7 +8,10 @@ const Home = () => {
     
       <div className="home">
         <Navbar />
+        <div className="container-carousel">
+        <label htmlFor="">Populares</label>
         <MangaCarousel/>
+        </div>
       </div>
   );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick/lib/slider';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Item } from '../Item/Item';
 
 const MangaCarousel = () => {
   const settings = {
@@ -14,8 +15,7 @@ const MangaCarousel = () => {
   return (
     <Slider className="slick-slider" {...settings}>
       <div>
-        <h3>Movie 1</h3>
-        <img src="https://via.placeholder.com/150" alt="Movie 1" />
+        <Item/>
       </div>
       <div>
         <h3>Movie 2</h3>
