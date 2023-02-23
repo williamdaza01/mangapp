@@ -1,21 +1,23 @@
-import React from 'react';
-import Slider from 'react-slick/lib/slider';
+import React from "react";
+import Slider from "react-slick/lib/slider";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Item } from '../Item/Item';
+import { Item } from "../Item/Item";
+import manga from "../../items.json";
 
 const MangaCarousel = () => {
   const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
   };
 
+  const items = manga.items;
   return (
     <Slider className="slick-slider" {...settings}>
       <div>
-        <Item/>
+        <Item {...items} />
       </div>
       <div>
         <h3>Movie 2</h3>
