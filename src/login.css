@@ -5,9 +5,9 @@
     position: absolute;top: 155px;left: 44px;
 }
 .phone{
-    width: 286px;           /* Ancho de 150 píxeles */
-  height: 570px;          /* Alto de 150 píxeles */
-  background: #FFF;        /* Fondo de color rojo */
+    width: 286px;           
+  height: 570px;          
+  background: #FFF;        
   border: 1px solid #000;
 }
 .button{
