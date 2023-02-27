@@ -1,1 +1,86 @@
- 
+.phone{
+    width: 286px;           
+  height: 570px;          
+  background: #FFF;        
+  border: 1px solid #000;
+}
+
+.logo{
+    position: absolute;top: 5px;left: 13px;
+    width: 90; height: 61px;
+    font-size: 14px;
+ }
+
+.namereg{
+position: absolute;top: 60px;left: 130px;
+   width: 90; height: 81px;
+   font-size: 13px;
+}
+.inputreg1{
+    background-color:hsl(0, 0%, 91%) ;
+    border:none;
+    width: 210px; height: 30px;
+    position: absolute;top: 85px;left: 44px;
+
+}
+.lastnamereg{
+    position: absolute;top: 130px;left: 128px;
+    font-size: 13px;
+}
+.inputreg2{
+    background-color:hsl(0, 0%, 91%) ;
+    border:none;
+    width: 210px; height: 30px;
+    position: absolute;top: 150px;left: 44px;
+
+}
+.userreg{
+    position: absolute;top: 195px;left: 109px;
+    font-size: 13px;
+}
+.inputreg3{
+    background-color:hsl(0, 0%, 91%) ;
+    border:none;
+    width: 210px; height: 30px;
+    position: absolute;top: 215px;left: 44px;
+
+}
+.contraseñareg{  
+    position: absolute;top: 250px;left: 120px;
+    font-size: 13px;
+}
+
+.inputreg4{
+    background-color:hsl(0, 0%, 91%) ;
+    border:none;
+    width: 210px; height: 30px;
+    position: absolute;top: 275px;left: 44px;
+   
+}
+.vericontrareg{
+    position: absolute;top: 320px;left: 87px;
+    font-size: 13px;
+}
+.inputreg5{
+    background-color:hsl(0, 0%, 91%) ;
+    border:none;
+    width: 210px; height: 30px;
+    position: absolute;top: 342px;left: 44px;
+
+}
+.emailreg{
+    position: absolute;top: 386px;left: 138px;
+   font-size: 13px;
+}
+.inputreg6{
+    background-color:hsl(0, 0%, 91%) ;
+    border:none;
+    width: 210px; height: 30px;
+    position: absolute;top: 410px;left: 44px;
+
+}
+.buttonreg{
+    width: 100px; height: 27px;
+    background-color:#D9D9D9 ;
+    position: absolute;top: 475px;left: 106px;
+}
