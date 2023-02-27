@@ -34,7 +34,7 @@ export const Item = (items) => {
             <h2 id="parent-modal-title">{items.name}</h2>
             <p id="parent-modal-description">{items.description}</p>
             <label htmlFor="">Leer aca</label>
-            <ReadViewer routefile={items.pdf} open={false}/>
+            <ReadViewer routefile="../../pdf/blackclover.pdf" open={false}/>
           </Box>
         </Modal>
       </Box>

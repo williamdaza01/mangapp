@@ -1,0 +1,16 @@
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.MuiDialog-paper {
+  margin: 48px;
+  width: calc(100% - 96px);
+  max-width: 800px;
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: none;
+}

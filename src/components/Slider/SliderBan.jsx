@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Item } from "../Item/Item";
 import {items} from "../../items";
+import './SliderBan.css';
 
 const MangaCarousel = () => {
   const settings = {
@@ -16,19 +17,19 @@ const MangaCarousel = () => {
   const allitems = items;
   return (
     <Slider className="slick-slider" {...settings}>
-      <div>
+      <div className="items">
         <Item {...allitems[0]} />
       </div>
-      <div>
+      <div className="items">
         <Item {...allitems} />
       </div>
-      <div>
+      <div className="items">
         <Item {...allitems} />
       </div>
-      <div>
+      <div className="items">
         <Item {...allitems} />
       </div>
-      <div>
+      <div className="items">
         <Item {...allitems} />
       </div>
     </Slider>
