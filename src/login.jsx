@@ -1,36 +1,34 @@
-import { useRef } from "react";
+import { useRef } from 'react';
 import "./login.css";
+import { Registro } from './registro';
+
+
 export function Login(){
-  const email = useRef;
-  const contraseña = useRef;
-  const hadlesubmit = () => {
-    if (
-      email.current.value == "juanjo.op1771@gmail.com" &&
-      contraseña.current.value == "12345"
-    ) {
-      localStorage.setItem("emailData", "juanjo.op1771@gmail.com");
-      localStorage.setItem("contraseñaData", "12345");
-    }
-  };
-
+  const email = useRef()
+  const contraseña = useRef()
+  const getEmail=localStorage.getItem("emailData")
+  const getContraseña = localStorage.getItem("contraseñaData")
+ if (getEmail == null && getContraseña ==null){ alert('No se puede iniciar')}
+else{
+    alert("Se ha iciado automaticamente")
+}
   return(
-    <div className="Login">
-      <header className="Login-header">
-        <h1>スリーブ</h1>
-        <div>
-          <b>Usuario</b>
-          <input type="text" ref={email} />
-        </div>
-        <div>
-          <b>contraseña</b>
-          <input type="contraseña" ref={contraseña}/>
-        </div>
-        <div>
-          <button>Login</button>
-        </div>
-      </header>
+     <div>
+          
+        {
+        getEmail && getContraseña?<Registro/>: 
+        
+        <form onSubmit>
+          <h1>スリーブ</h1>
+                <b>Email o Correo</b>
+                <input type="text" ref={email}/>
+            
+                <b>Contraseña</b>
+                <input type="password" ref={contraseña}/>
+                <button>Login</button>
+        </form>
+        }
     </div>
-  )
-
+  ); 
 }
 
