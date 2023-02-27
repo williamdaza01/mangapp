@@ -5,14 +5,23 @@ import "./home.css";
 
 const Home = () => {
   return (
-    
-      <div className="home">
-        <Navbar />
-        <div className="container-carousel">
+    <div className="home">
+      <Navbar />
+      <div className="container-carousel">
         <label htmlFor="">Populares</label>
-        <MangaCarousel/>
-        </div>
+        <MangaCarousel />
       </div>
+      <br />
+      <div className="container-carousel">
+        <label htmlFor="">Mas Recientes</label>
+        <MangaCarousel />
+      </div>
+      <br />
+      <div className="container-carousel">
+        <label htmlFor="">Top Shonen</label>
+        <MangaCarousel />
+      </div>
+    </div>
   );
 };
 

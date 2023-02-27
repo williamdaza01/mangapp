@@ -3,7 +3,7 @@ import Slider from "react-slick/lib/slider";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Item } from "../Item/Item";
-import manga from "../../items.json";
+import {items} from "../../items";
 
 const MangaCarousel = () => {
   const settings = {
@@ -13,27 +13,23 @@ const MangaCarousel = () => {
     slidesToScroll: 1,
   };
 
-  const items = manga.items;
+  const allitems = items;
   return (
     <Slider className="slick-slider" {...settings}>
       <div>
-        <Item {...items} />
+        <Item {...allitems[0]} />
       </div>
       <div>
-        <h3>Movie 2</h3>
-        <img src="https://via.placeholder.com/150" alt="Movie 2" />
+        <Item {...allitems} />
       </div>
       <div>
-        <h3>Movie 3</h3>
-        <img src="https://via.placeholder.com/150" alt="Movie 3" />
+        <Item {...allitems} />
       </div>
       <div>
-        <h3>Movie 4</h3>
-        <img src="https://via.placeholder.com/150" alt="Movie 4" />
+        <Item {...allitems} />
       </div>
       <div>
-        <h3>Movie 5</h3>
-        <img src="https://via.placeholder.com/150" alt="Movie 5" />
+        <Item {...allitems} />
       </div>
     </Slider>
   );
