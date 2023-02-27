@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ReactDOM from "react-dom";
 import { Login } from './login';
+import './registro.css';
 
 export function Registro () {
     const[inputApellido,setinputApellido] = useState("")
@@ -53,32 +54,32 @@ export function Registro () {
     
   return (
     
-    <div className="Login">
-
-        <h1>スリーブ</h1>
+    <div className="phone">
+<div className='head'>
+        <h1 className='logo'>スリーブ</h1>
         
-          <b>Usuario</b>
-          <input type="text" 
+          <b className='namereg'>Usuario</b>
+          <input className='inputreg1' type="text" 
           onChange={ handleInputChanges}/>
-          <b>Apellido</b>
-          <input type="text" 
+          <b className='lastnamereg'>Apellido</b>
+          <input className='inputreg2' type="text" 
           onChange={cambiosapellido}/>
-            <b>Nombre Usuario</b>
-          <input type="text" 
+            <b className='userreg'>Nombre Usuario</b>
+          <input className='inputreg3' type="text" 
           onChange={cambioNUser}/>
-            <b>Contraseña</b>
-          <input type="text" 
+            <b className='contraseñareg'>Contraseña</b>
+          <input className='inputreg4' type="text" 
           onChange={ cambioscontra}/>
-            <b>Verificacion Contraseña</b>
-          <input type="text" 
+            <b className='vericontrareg'>Verificacion Contraseña</b>
+          <input className='inputreg5' type="text" 
           onChange={ cambiosvericontra}/>
-            <b>Email</b>
-          <input type="text" 
+            <b className='emailreg'>Email</b>
+          <input className='inputreg6' type="text" 
           onChange={ cambiosemail}/>
 
     
-          <button className='button' onClick={savedData}>Registrar</button>
-        
+          <button className='buttonreg' onClick={savedData}>Registrar</button>
+          </div>
          
   </div>)
   
