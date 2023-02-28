@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import MangaCarousel from "../components/Slider/SliderBan";
 import "./home.css";
 
-const Home = () => {
+export const Home = () => {
   return (
     <div className="home">
       <Navbar />
@@ -25,4 +25,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+
