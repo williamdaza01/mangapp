@@ -1,6 +1,8 @@
+
 import { useRef } from 'react';
 import './login.css';
 import { Registro } from './registro';
+import { Home } from './Home/home';
 
 
 export function Login(){
@@ -16,7 +18,7 @@ else{
      <div className='phone'>
           <div className='head'>
         {
-        getEmail && getContraseña?<Registro/>: 
+        getEmail && getContraseña?<Home/>: 
         
         <form onSubmit>
           <h1 className='logo'>スリーブ</h1>

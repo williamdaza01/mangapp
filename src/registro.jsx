@@ -44,10 +44,11 @@ export function Registro () {
         localStorage.setItem('verificontraseñaData',inputVerificacioncontraseña);
         localStorage.setItem('emailData',inputEmail);
         alert('guardado')
-    
-    }
-  
 
+    }
+ 
+    const getEmail=localStorage.getItem("emailData")
+    const getContraseña = localStorage.getItem("contraseñaData")
    
 
     
@@ -55,9 +56,14 @@ export function Registro () {
   return (
     
     <div className="phone">
+      
 <div className='head'>
+{getEmail && getContraseña?<Login/>:
+<form onSubmit>
+
         <h1 className='logo'>スリーブ</h1>
-        
+      
+       
           <b className='namereg'>Usuario</b>
           <input className='inputreg1' type="text" 
           onChange={ handleInputChanges}/>
@@ -79,6 +85,8 @@ export function Registro () {
 
     
           <button className='buttonreg' onClick={savedData}>Registrar</button>
+          </form>
+        }
           </div>
          
   </div>)
