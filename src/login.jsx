@@ -1,8 +1,9 @@
 
 import { useRef } from 'react';
 import './login.css';
+import { BrowserRouter, Link,Switch,Route, } from "react-router-dom";
 import { Registro } from './registro';
-import { Home } from './Home/home';
+import { Home } from './Home/Home';
 
 
 export function Login(){
@@ -28,7 +29,7 @@ else{
                 <b className='contraseña'>Contraseña</b>
                 <input className='input2' type="password" ref={contraseña}/>
                 <button className='button'>Login</button>
-                <p className='registrarse'>Registrarse</p>
+                <p className='registrarse' ><Link to="/">Registro</Link></p>
         </form>
         }
         </div>
