@@ -13,7 +13,7 @@
 .button{
     width: 100px; height: 27px;
     background-color:#D9D9D9 ;
-    position: absolute;top: 300px;left: 101px;
+    position: absolute;top: 310px;left: 101px;
 }
 .logo{
    position: absolute;top: 5px;left: 13px;
@@ -42,6 +42,8 @@ position: absolute;top: 240px;left: 44px;
    
 }
 .registrarse{
-    position: absolute;top: 335px;left: 121px;
-    font-size: 12px;
+    position: absolute;top: 350px;left: 122px;
+   width: 50; height: 61px;
+   font-size: 10px;
+
 }
