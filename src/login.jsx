@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./login.css";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 export function Login() {
   const history = useHistory();

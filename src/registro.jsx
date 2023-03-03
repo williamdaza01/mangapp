@@ -1,6 +1,4 @@
 import { useState } from "react";
-import ReactDOM from "react-dom";
-import { Login } from "./login";
 import "./registro.css";
 
 export function Registro() {
