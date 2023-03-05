@@ -8,21 +8,19 @@ export const Home = () => {
     <div className="home">
       <Navbar />
       <div className="container-carousel">
-        <label htmlFor="">Populares</label>
-        <MangaCarousel />
+        <label>Populares</label>
+        <div>
+          <MangaCarousel />
+        </div>
       </div>
       <br />
       <div className="container-carousel">
         <label htmlFor="">Mas Recientes</label>
-        <MangaCarousel />
       </div>
       <br />
       <div className="container-carousel">
         <label htmlFor="">Top Shonen</label>
-        <MangaCarousel />
       </div>
     </div>
   );
 };
-
-

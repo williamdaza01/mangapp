@@ -15,14 +15,14 @@ const style = {
   p: 4,
 };
 
-export const Item = (items) => {
+export const Item = (Items) => {
   const [isOpen, setIsOpen] = useState(false);
   const handleClose = () => setIsOpen(false);
   return (
     <div>
       <Box className="item-container">
         <a onClick={() => setIsOpen(true)}>
-          <img src={items.frontpage} alt="" />
+          <img src={Items.frontpage} alt="" />
         </a>
         <Modal
           open={isOpen}
@@ -31,10 +31,10 @@ export const Item = (items) => {
           aria-describedby="parent-modal-description"
         >
           <Box sx={{ ...style, width: 400 }}>
-            <h2 id="parent-modal-title">{items.name}</h2>
-            <p id="parent-modal-description">{items.description}</p>
+            <h2 id="parent-modal-title">{Items.name}</h2>
+            <p id="parent-modal-description">{Items.description}</p>
             <label htmlFor="">Leer aca</label>
-            <ReadViewer routefile={items.pdf} open={false}/>
+            <ReadViewer routefile={Items.pdf} open={false} />
           </Box>
         </Modal>
       </Box>
