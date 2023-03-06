@@ -1,8 +1,15 @@
 .home {
-    
+
       width: 286px;           
       height: 570px;          
       background: #FFF;        
       border: 1px solid #000;
-    
+      overflow-y: auto;
+      scroll-behavior: smooth;   
 }
+.home::-webkit-scrollbar {
+      display: none;
+    }
+.container-carousel1 {
+      margin-top: 50px;
+    }

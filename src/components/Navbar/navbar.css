@@ -5,6 +5,7 @@
     top: 543px;
     width: 286px;           /* Ancho de 150 píxeles */
     height: 36px;  
+    z-index: 900
     
 }
 
@@ -15,13 +16,7 @@
     justify-content: space-between;  
 }
 
-.iconssearch{
-    width: 30px;
-    position: fixed;
-    top: 12px;
-    left: 258px;
 
-}
 .iconslista{
      width: 30px;
     position: fixed;

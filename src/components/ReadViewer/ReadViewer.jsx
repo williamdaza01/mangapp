@@ -17,9 +17,7 @@ export const ReadViewer = ({ routefile }) => {
     setVisible(false);
   };
 
-
   const obj = localStorage.getItem("blackcloverpdf");
-  
 
   return (
     <div>
@@ -32,7 +30,7 @@ export const ReadViewer = ({ routefile }) => {
           <Viewer
             visible={visible}
             onClose={handleClose}
-            images={[{ src: {obj}, alt: "" }]}
+            images={[{ src: routefile, alt: "" }]}
           />
         </div>
       </Modal>

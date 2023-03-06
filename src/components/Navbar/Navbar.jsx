@@ -27,7 +27,6 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <Search className="iconssearch" />
       <ViewModule className="iconsbrowser" />
       <Bookmark className="iconslista" />
       <Download className="iconsdescargas" />

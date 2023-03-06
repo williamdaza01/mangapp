@@ -8,8 +8,8 @@ import { Items } from "../../items";
 const MangaCarousel = () => {
   const settings = {
     infinite: true,
-    speed: 500,
-    slidesToShow: 3,
+    speed: 100,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
 
