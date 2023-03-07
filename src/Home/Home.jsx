@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { Navbarsup } from "../components/Navbar/navbarsup";
 import MangaCarousel from "../components/Slider/SliderBan";
+import { MangaCarouselmasrecientes } from "../components/Slider/masrecientes";
 import "./home.css";
 
 export const Home = () => {
@@ -19,7 +20,7 @@ export const Home = () => {
       <div className="container-carousel2">
         <label>Mas Recientes</label>
         <div className="masrecientes">
-          <MangaCarousel />
+          <MangaCarouselmasrecientes />
         </div>
       </div>
       <br />

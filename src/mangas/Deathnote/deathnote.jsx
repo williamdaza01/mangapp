@@ -1,11 +1,12 @@
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";
-import "./blackclover.css";
-import { ItemManga } from "../components/Itemmanga/itemmanga";
-import { Items } from "../items";
+import "../perfilmanga.css";
+import { ItemManga } from "../../components/Itemmanga/itemmanga";
+import { Items } from "../../items";
+import { Button } from "@material-ui/core";
 
-export const Blackcover = () => {
+export const Deathnote = () => {
   const history = useHistory();
   const allitems = Items;
 
@@ -16,8 +17,11 @@ export const Blackcover = () => {
         onClick={() => history.push("/home")}
       ></ArrowBackIos>
       <div>
-        <ItemManga {...allitems[0]} />
+        <ItemManga {...allitems[9]} />
       </div>
+      <Box className="cuadrodeopciones">
+        <Button>Capitulo 1</Button>
+      </Box>
     </div>
   );
 };

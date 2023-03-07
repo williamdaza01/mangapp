@@ -27,7 +27,7 @@ export function Login() {
     <div className="phone">
       <div className="head">
         <form onSubmit>
-          <h1 className="logo">スリーブ</h1>
+          <h1 className="logoo">スリーブ</h1>
           <b className="email">Email o Correo</b>
           <input className="input1" type="text" ref={email} />
 
@@ -45,9 +45,12 @@ export function Login() {
           >
             Login
           </button>
-          <p className="registrarse" onClick={() => history.push("/")}>
+          <label
+            className="registrarse"
+            onClick={() => history.push("/registro")}
+          >
             Crear Cuenta
-          </p>
+          </label>
         </form>
       </div>
     </div>
