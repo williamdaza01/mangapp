@@ -11,17 +11,23 @@ export const Home = () => {
       <Navbar />
       <div className="container-carousel1">
         <label>Populares</label>
-        <MangaCarousel />
+        <div className="populares">
+          <MangaCarousel />
+        </div>
       </div>
       <br />
       <div className="container-carousel2">
-        <label htmlFor="">Mas Recientes</label>
-        <MangaCarousel />
+        <label>Mas Recientes</label>
+        <div className="masrecientes">
+          <MangaCarousel />
+        </div>
       </div>
       <br />
       <div className="container-carousel3">
         <label htmlFor="">Top Shonen</label>
-        <MangaCarousel />
+        <div className="topshonen">
+          <MangaCarousel />
+        </div>
       </div>
     </div>
   );
