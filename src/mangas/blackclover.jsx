@@ -1,6 +1,6 @@
+import React from 'react'
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
-import { Box } from "@material-ui/core";
 import "./blackclover.css";
 import { ItemManga } from "../components/Itemmanga/itemmanga";
 import { Items } from "../items";

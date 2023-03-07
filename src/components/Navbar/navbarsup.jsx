@@ -6,7 +6,7 @@ import "./navbarsup.css";
 export const Navbarsup = () => {
   return (
     <div className="navbarsup">
-      <Logo />
+      <a href="/home"> <Logo /></a>
       <Search className="iconssearch" />
     </div>
   );
