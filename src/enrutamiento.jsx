@@ -8,6 +8,12 @@ import { Naruto } from "./mangas/Naruto/naruto";
 import { Dbz } from "./mangas/Dbz/dbz";
 import { Bluelock } from "./mangas/Bluelock/bluelock";
 import { Onepiece } from "./mangas/Onepiece/onepiece";
+import { Bokunohero } from "./mangas/BokunoHero/bokunohero";
+import { Bleach } from "./mangas/Bleach/bleach";
+import { Shingeki } from "./mangas/Shingeki/shingeki";
+import { Ippo } from "./mangas/Ippo/ippo";
+import { Deathnote } from "./mangas/Deathnote/deathnote";
+
 export const Enrutamiento = () => {
   return (
     <BrowserRouter basename="/">
@@ -21,6 +27,11 @@ export const Enrutamiento = () => {
         <Route path="/dbz" component={Dbz} />
         <Route path="/bluelock" component={Bluelock} />
         <Route path="/onepiece" component={Onepiece} />
+        <Route path="/bokunohero" component={Bokunohero} />
+        <Route path="/bleach" component={Bleach} />
+        <Route path="/shingekinokyojin" component={Shingeki} />
+        <Route path="/hajimenoippo" component={Ippo} />
+        <Route path="/deathnote" component={Deathnote} />
       </Switch>
     </BrowserRouter>
   );
