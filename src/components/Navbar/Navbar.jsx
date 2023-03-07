@@ -8,7 +8,7 @@ import {
 import { Download } from "@mui/icons-material";
 import React from "react";
 import { useHistory } from "react-router-dom";
-import "./navbar.css";
+import "./navbar.scss";
 
 const Navbar = () => {
   const history = useHistory();
