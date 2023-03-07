@@ -1,0 +1,20 @@
+.iconsarrowback{
+    color: black;
+    position: fixed;
+    top: 18px;
+    left: 18px;
+    font-size: 18px !important;
+
+}
+.cuadrodeopciones {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    margin-top: 180px;
+
+  }
+  
+  
+  
+ 
+  

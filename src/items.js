@@ -4,6 +4,10 @@ import onepiece from "./assets/images/onepiece.jpg";
 import dbz from "./assets/images/dragonballz.jpg";
 import bluelock from "./assets/images/bluelock.jpg";
 import imgblackclover from "./assets/images/imgpagmnaga/Blackcloverportada.jpg";
+import imgnaruto from "./assets/images/imgpagmnaga/narutoperfil.jpg";
+import imgdbz from "./assets/images/imgpagmnaga/dbzperfil.jpg";
+import imgbluelock from "./assets/images/imgpagmnaga/Bluelockperfil.jpg";
+import imgonepiece from "./assets/images/imgpagmnaga/onepieceperfil.jpg";
 
 export const Items = [
   {
@@ -26,33 +30,40 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/naruto",
+    image: imgnaruto,
   },
   {
     name: "Dragon Ball Z",
     id: 3,
     frontpage: dbz,
-    description: "",
+    description:
+      "Dragon Ball Z es la continuación de Dragon Ball y sigue la historia de Goku y sus amigos mientras se enfrentan a nuevos enemigos cada vez más poderosos, luchando por proteger la Tierra. La serie presenta batallas emocionantes, transformaciones épicas y un enfoque en el crecimiento personal y las relaciones de los personajes.",
     number: "",
     date: "",
-    pdf: "/dbz",
+    ruta: "/dbz",
+    image: imgdbz,
   },
   {
     name: "Blue Lock",
     id: 4,
     frontpage: bluelock,
-    description: "",
+    description:
+      "Blue Lock programa de entrenamiento especial para jóvenes delanteros en Japón. La trama se centra en Yoichi Isagi, un delantero con talento que se une al programa para mejorar su mentalidad ganadora y competir por un lugar en el programa de entrenamiento definitivo. La serie presenta emocionantes partidos de entrenamiento y enfatiza la importancia del trabajo en equipo y la perseverancia en la búsqueda del éxito.",
     number: "",
     date: "",
-    pdf: "",
+    ruta: "/bluelock",
+    image: imgbluelock,
   },
   {
     name: "One Piece",
     id: 5,
     frontpage: onepiece,
-    description: "",
+    description:
+      "One Piece sigue la historia de Monkey D. Luffy, un joven pirata con habilidades elásticas que busca el tesoro más grande del mundo, el One Piece, junto a su tripulación de los Piratas del Sombrero de Paja. A lo largo de la serie, Luffy y sus amigos luchan contra enemigos poderosos, hacen amigos y descubren el pasado y las motivaciones de personajes clave.",
     number: "",
     date: "",
-    pdf: "",
+    ruta: "/onepiece",
+    image: imgonepiece,
   },
   {
     name: "Boku no Hero",
