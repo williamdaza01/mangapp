@@ -1,8 +1,5 @@
 import ReactDOM from "react-dom";
 import React from "react";
+import { Enrutamiento } from "./enrutamiento";
 
-import { Login } from "./login";
-import { Registro } from "./registro";
-
-//ReactDOM.render(<Login />, document.getElementById("root"));
-ReactDOM.render(<Registro />, document.getElementById("root"));
+ReactDOM.render(<Enrutamiento />, document.getElementById("root"));

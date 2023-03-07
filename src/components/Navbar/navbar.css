@@ -1,6 +1,12 @@
 .navbar {
     color: black;
     background: #D9D9D9;
+    position: fixed;
+    top: 543px;
+    width: 286px;           /* Ancho de 150 píxeles */
+    height: 36px;  
+    z-index: 900
+    
 }
 
 .container{
@@ -10,13 +16,43 @@
     justify-content: space-between;  
 }
 
-.icons{
+
+.iconslista{
+     width: 30px;
+    position: fixed;
+    top: 550px;
+    left: 85px;
+}
+.iconsdescargas{
+       width: 30px;
+    position: fixed;
+    top: 552px;
+    left: 200px;
+
+}
+.iconsuser{
     width: 30px;
+    position: fixed;
+    top: 550px;
+    left: 248px;
+
 }
-.right{
-    display: flex;
-    gap: 20px;
+.iconshome{
+    width: 30px;
+    position: fixed;
+    top: 550px;
+    left: 143px;
 }
+.iconsbrowser{
+    
+    width: 30px;
+    position: fixed;
+    top: 551px;
+    left: 30px;
+  
+}
+
+
 
 .modal {
     position: absolute;
