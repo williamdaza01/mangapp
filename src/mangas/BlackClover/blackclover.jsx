@@ -1,9 +1,11 @@
 import React from 'react'
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
-import "./blackclover.css";
-import { ItemManga } from "../components/Itemmanga/itemmanga";
-import { Items } from "../items";
+import { Box } from "@material-ui/core";
+import "../perfilmanga.css";
+import { ItemManga } from "../../components/Itemmanga/itemmanga";
+import { Items } from "../../items";
+import { Button } from "@material-ui/core";
 
 export const Blackcover = () => {
   const history = useHistory();
@@ -18,6 +20,11 @@ export const Blackcover = () => {
       <div>
         <ItemManga {...allitems[0]} />
       </div>
+      <Box className="cuadrodeopciones">
+        <Button onClick={() => history.push("/blackclovercap1")}>
+          Capitulo 1
+        </Button>
+      </Box>
     </div>
   );
 };
