@@ -5,6 +5,7 @@ import { Login } from "./login";
 import { Registro } from "./registro";
 import { Blackcover } from "./mangas/blackclover";
 import { Profile } from './components/Profile/Profile';
+import { DownloadPage } from './components/DownloadPage/DownloadPage';
 
 export const Enrutamiento = () => {
   return (
@@ -15,6 +16,7 @@ export const Enrutamiento = () => {
         <Route path="/login" component={Login} />
         <Route path="/blackclover" component={Blackcover} />
         <Route path="/profile" component={Profile}/>
+        <Route path="/download" component={DownloadPage}/>
       </Switch>
     </BrowserRouter>
   );

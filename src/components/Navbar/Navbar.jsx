@@ -16,12 +16,18 @@ const Navbar = () => {
     <div className="navbar">
       <ViewModule className="iconsbrowser" />
       <Bookmark className="iconslista" />
-      <Download className="iconsdescargas" />
-      <Home className="iconshome" />
-      <AccountCircle className="iconsuser" onClick={(e) => {
+      <a> <Download className="iconsdescargas" onClick={(e) => {
+                e.preventDefault();
+                history.push("/download");         
+              }}  /></a>
+      <a><Home className="iconshome" onClick={(e) => {
+                e.preventDefault();
+                history.push("/home");         
+              }}  /></a>
+      <a><AccountCircle className="iconsuser" onClick={(e) => {
                 e.preventDefault();
                 history.push("/profile");         
-              }}   />
+              }}   /></a>
     </div>
   );
 };
