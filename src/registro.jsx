@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { React, useState } from "react";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import "./registro.css";

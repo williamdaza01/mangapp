@@ -1,3 +1,4 @@
+import React from 'react'
 import { Box } from "@material-ui/core";
 import "../Item/item.css";
 import "./itemmanga.css";

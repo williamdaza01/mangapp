@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Home } from "./Home/Home";
 import { Login } from "./login";
@@ -22,6 +23,8 @@ export const Enrutamiento = () => {
         <Route path="/registro" component={Registro} />
         <Route path="/home" component={Home} />
         <Route path="/blackclover" component={Blackcover} />
+        <Route path="/profile" component={Profile}/>
+        <Route path="/download" component={DownloadPage}/>
         <Route path="/blackclovercap1" component={Cap1Blackclover} />
         <Route path="/naruto" component={Naruto} />
         <Route path="/dbz" component={Dbz} />

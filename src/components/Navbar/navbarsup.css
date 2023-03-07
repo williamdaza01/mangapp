@@ -14,3 +14,7 @@
     height: 36px;  
     z-index: 1000
 }
+
+a{
+    cursor: pointer;
+}
