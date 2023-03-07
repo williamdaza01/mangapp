@@ -18,9 +18,9 @@ export const Enrutamiento = () => {
   return (
     <BrowserRouter basename="/">
       <Switch>
-        <Route exact path="/" component={Registro} />
+        <Route exact path="/" component={Login} />
+        <Route path="/registro" component={Registro} />
         <Route path="/home" component={Home} />
-        <Route path="/login" component={Login} />
         <Route path="/blackclover" component={Blackcover} />
         <Route path="/blackclovercap1" component={Cap1Blackclover} />
         <Route path="/naruto" component={Naruto} />

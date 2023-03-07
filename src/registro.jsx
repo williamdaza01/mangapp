@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ArrowBackIos } from "@material-ui/icons";
+import { useHistory } from "react-router-dom";
 import "./registro.css";
 
 export function Registro() {
@@ -60,12 +62,16 @@ export function Registro() {
       alert("guardado");
     }
   };
-
+  const history = useHistory();
   return (
     <div className="phone">
       <div className="head">
         <form onSubmit>
-          <h1 className="logo">スリーブ</h1>
+          <ArrowBackIos
+            className="iconsarrowbackregistro"
+            onClick={() => history.push("/")}
+          ></ArrowBackIos>
+          <h1 className="logoo">スリーブ</h1>
 
           <b className="namereg">Usuario</b>
           <input

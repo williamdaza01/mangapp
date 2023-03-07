@@ -5,7 +5,14 @@
   border: 1px solid #000;
 }
 
-.logo{
+.iconsarrowbackregistro{
+    color: black;
+    position: fixed;
+    top: 55px;
+    left: 25px;
+ 
+}
+.logoo{
     position: absolute;top: 5px;left: 13px;
     width: 90; height: 61px;
     font-size: 14px;
