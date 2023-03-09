@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Home } from "./Home/Home";
 import { Login } from "./login";
@@ -14,6 +14,8 @@ import { Bleach } from "./mangas/Bleach/bleach";
 import { Shingeki } from "./mangas/Shingeki/shingeki";
 import { Ippo } from "./mangas/Ippo/ippo";
 import { Deathnote } from "./mangas/Deathnote/deathnote";
+import { Profile } from "./components/Profile/Profile";
+import { DownloadPage } from "./components/DownloadPage/DownloadPage";
 
 export const Enrutamiento = () => {
   return (
@@ -23,8 +25,8 @@ export const Enrutamiento = () => {
         <Route path="/registro" component={Registro} />
         <Route path="/home" component={Home} />
         <Route path="/blackclover" component={Blackcover} />
-        <Route path="/profile" component={Profile}/>
-        <Route path="/download" component={DownloadPage}/>
+        <Route path="/profile" component={Profile} />
+        <Route path="/download" component={DownloadPage} />
         <Route path="/blackclovercap1" component={Cap1Blackclover} />
         <Route path="/naruto" component={Naruto} />
         <Route path="/dbz" component={Dbz} />

@@ -8,8 +8,9 @@ import bluelock from "../../assets/images/bluelock.jpg";
 
 export const Profile = () => {
   const history = useHistory();
-  const name = localStorage.getItem("nombreData") + localStorage.getItem("apellidoData");
-  const email = localStorage.getItem("apellidoData");
+  const name = localStorage.getItem("nombreUserData");
+
+  const email = localStorage.getItem("emailData");
   const phone = "2000000";
   const photo = localStorage.getItem("photo");
 
