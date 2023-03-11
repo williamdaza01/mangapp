@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRef } from "react";
-import "./login.css";
+import "./login.scss";
 import { useHistory } from "react-router-dom";
 
 export function Login() {

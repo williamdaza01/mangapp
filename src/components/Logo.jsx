@@ -1,6 +1,6 @@
 import { SvgIcon } from "@material-ui/core";
 import React from "react";
-import "./Logo.css";
+import "./Logo.scsss";
 
 export const Logo = () => {
   return (

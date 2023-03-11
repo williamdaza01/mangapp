@@ -1,7 +1,7 @@
 import { ArrowBackIos } from "@material-ui/icons";
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import "./Profile.css";
+import "./Profile.scss";
 import { useHistory } from "react-router-dom";
 import { Navbarsup } from "../Navbar/navbarsup";
 import bluelock from "../../assets/images/bluelock.jpg";

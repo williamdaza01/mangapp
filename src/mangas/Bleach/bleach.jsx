@@ -1,7 +1,7 @@
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";
-import "../perfilmanga.css";
+import "../perfilmanga.scsss";
 import { ItemManga } from "../../components/Itemmanga/itemmanga";
 import { Items } from "../../items";
 import { Button } from "@material-ui/core";

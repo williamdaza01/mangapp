@@ -1,5 +1,5 @@
 import { Box } from "@material-ui/core";
-import "./item.css";
+import "./item.scssss";
 import { useHistory } from "react-router-dom";
 import React from 'react'
 
