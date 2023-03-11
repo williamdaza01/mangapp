@@ -14,6 +14,8 @@ import { Bleach } from "./mangas/Bleach/bleach";
 import { Shingeki } from "./mangas/Shingeki/shingeki";
 import { Ippo } from "./mangas/Ippo/ippo";
 import { Deathnote } from "./mangas/Deathnote/deathnote";
+import { Profile } from './components/Profile/Profile';
+import { DownloadPage } from './components/DownloadPage/DownloadPage';
 
 export const Enrutamiento = () => {
   return (

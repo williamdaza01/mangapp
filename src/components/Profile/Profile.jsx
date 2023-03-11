@@ -8,10 +8,11 @@ import bluelock from "../../assets/images/bluelock.jpg";
 
 export const Profile = () => {
   const history = useHistory();
-  const name = localStorage.getItem("nombreData") + localStorage.getItem("apellidoData");
-  const email = localStorage.getItem("apellidoData");
+  const name = localStorage.getItem("nombreData") + " " + localStorage.getItem("apellidoData");
+  const email = localStorage.getItem("emailData");
   const phone = "2000000";
   const photo = localStorage.getItem("photo");
+  const username = localStorage.getItem("nombreUserData");
 
   return (
     <div className="home">
@@ -20,11 +21,13 @@ export const Profile = () => {
           className="iconsarrowback"
           onClick={() => history.push("/home")}
         ></ArrowBackIos>
+        <div>Profile</div>
       </Navbarsup>
       <div className="profile">
         <img className="profileimg" src={bluelock} alt="Profile" />
         <h2>{name}</h2>
         <p>Email: {email}</p>
+        <p>Username: {username}</p>
         <p>Phone: {phone}</p>
       </div>
       <Navbar></Navbar>
