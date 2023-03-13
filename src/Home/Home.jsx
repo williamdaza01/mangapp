@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import { Navbarsup } from "../components/Navbar/navbarsup";
 import MangaCarousel from "../components/Slider/SliderBan";
 import { MangaCarouselmasrecientes } from "../components/Slider/masrecientes";
-import "./home.css";
+import "./home.scss";
 
 export const Home = () => {
   return (
