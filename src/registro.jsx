@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
-import "./registro.css";
+import "./registro.scss";
 
 export function Registro() {
   const [inputApellido, setinputApellido] = useState("");
