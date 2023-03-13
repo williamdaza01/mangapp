@@ -1,12 +1,10 @@
-
-
 .chapter-header {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 13px;
- 
+
 }
 
 .back-button {
@@ -25,7 +23,7 @@ h1 {
 }
 
 .chapter-pages {
-    
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: 400px;
