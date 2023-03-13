@@ -55,64 +55,75 @@ import { Box } from "@material-ui/core";
 
 export const Cap1Blackclover = () => {
   const history = useHistory();
+  const handleGoBack = () => {
+    history.goBack();
+  };
+
+  const images = [
+    imagen,
+    imagen2,
+    imagen3,
+    imagen4,
+    imagen5,
+    imagen6,
+    imagen7,
+    imagen8,
+    imagen9,
+    imagen10,
+    imagen11,
+    imagen12,
+    imagen13,
+    imagen14,
+    imagen15,
+    imagen16,
+    imagen17,
+    imagen18,
+    imagen19,
+    imagen20,
+    imagen21,
+    imagen22,
+    imagen23,
+    imagen24,
+    imagen25,
+    imagen26,
+    imagen27,
+    imagen28,
+    imagen29,
+    imagen30,
+    imagen31,
+    imagen32,
+    imagen33,
+    imagen34,
+    imagen35,
+    imagen36,
+    imagen37,
+    imagen38,
+    imagen39,
+    imagen40,
+    imagen41,
+    imagen42,
+    imagen43,
+    imagen44,
+    imagen45,
+    imagen46,
+    imagen47,
+    imagen48,
+    imagen49,
+    imagen50,
+  ];
+
   return (
     <div className="home">
-      <ArrowBackIos
-        className="iconsarrowback"
-        onClick={() => history.push("/blackclover")}
-      ></ArrowBackIos>
-      <h2 className="titulo"> Capitulo 1</h2>
-      <Box className="boxcapitulo">
-        <img src={imagen} alt="" className="cap" />
-        <img src={imagen2} alt="" className="cap" />
-        <img src={imagen3} alt="" className="cap" />
-        <img src={imagen4} alt="" className="cap" />
-        <img src={imagen5} alt="" className="cap" />
-        <img src={imagen6} alt="" className="cap" />
-        <img src={imagen7} alt="" className="cap" />
-        <img src={imagen8} alt="" className="cap" />
-        <img src={imagen9} alt="" className="cap" />
-        <img src={imagen10} alt="" className="cap" />
-        <img src={imagen11} alt="" className="cap" />
-        <img src={imagen12} alt="" className="cap" />
-        <img src={imagen13} alt="" className="cap" />
-        <img src={imagen14} alt="" className="cap" />
-        <img src={imagen15} alt="" className="cap" />
-        <img src={imagen16} alt="" className="cap" />
-        <img src={imagen17} alt="" className="cap" />
-        <img src={imagen18} alt="" className="cap" />
-        <img src={imagen19} alt="" className="cap" />
-        <img src={imagen20} alt="" className="cap" />
-        <img src={imagen21} alt="" className="cap" />
-        <img src={imagen22} alt="" className="cap" />
-        <img src={imagen23} alt="" className="cap" />
-        <img src={imagen24} alt="" className="cap" />
-        <img src={imagen25} alt="" className="cap" />
-        <img src={imagen26} alt="" className="cap" />
-        <img src={imagen27} alt="" className="cap" />
-        <img src={imagen28} alt="" className="cap" />
-        <img src={imagen29} alt="" className="cap" />
-        <img src={imagen30} alt="" className="cap" />
-        <img src={imagen31} alt="" className="cap" />
-        <img src={imagen32} alt="" className="cap" />
-        <img src={imagen33} alt="" className="cap" />
-        <img src={imagen34} alt="" className="cap" />
-        <img src={imagen35} alt="" className="cap" />
-        <img src={imagen36} alt="" className="cap" />
-        <img src={imagen37} alt="" className="cap" />
-        <img src={imagen38} alt="" className="cap" />
-        <img src={imagen39} alt="" className="cap" />
-        <img src={imagen40} alt="" className="cap" />
-        <img src={imagen41} alt="" className="cap" />
-        <img src={imagen42} alt="" className="cap" />
-        <img src={imagen43} alt="" className="cap" />
-        <img src={imagen44} alt="" className="cap" />
-        <img src={imagen45} alt="" className="cap" />
-        <img src={imagen46} alt="" className="cap" />
-        <img src={imagen47} alt="" className="cap" />
-        <img src={imagen48} alt="" className="cap" />
-        <img src={imagen49} alt="" className="cap" />
-        <img src={imagen50} alt="" className="cap" />
+      <Box className="chapter-container">
+        <Box className="chapter-header">
+          <ArrowBackIos className="back-button" onClick={handleGoBack} />
+          <h1>Capítulo 1: Las Tres Hojas</h1>
+        </Box>
+        <Box className="chapter-pages">
+          {images.map((image, index) => (
+            <img key={index} src={image} alt={`Página ${index + 1}`} />
+          ))}
+        </Box>
       </Box>
     </div>
   );
