@@ -20,7 +20,9 @@ export const Bluelock = () => {
         <ItemManga {...allitems[3]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/bluelockcap1")}>
+          Capitulo 1
+        </Button>
       </Box>
     </div>
   );

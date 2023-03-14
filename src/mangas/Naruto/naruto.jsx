@@ -20,7 +20,7 @@ export const Naruto = () => {
         <ItemManga {...allitems[1]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/narutocap1")}>Capitulo 1</Button>
       </Box>
     </div>
   );

@@ -16,6 +16,11 @@ import { Ippo } from "./mangas/Ippo/ippo";
 import { Deathnote } from "./mangas/Deathnote/deathnote";
 import { Profile } from "./components/Profile/Profile";
 import { DownloadPage } from "./components/DownloadPage/DownloadPage";
+import { Cap1Bleach } from "./mangas/Bleach/Capitulos/cap1bleach";
+import { Cap2Bleach } from "./mangas/Bleach/Capitulos/cap2bleach";
+import { Cap1Naruto } from "./mangas/Naruto/Capitulos/narutocap1";
+import { Cap1Onepiece } from "./mangas/Onepiece/Capitulos/cap1onepiece";
+import { Cap1Bluelock } from "./mangas/Bluelock/Capitulos/cap1bluelock";
 
 export const Enrutamiento = () => {
   return (
@@ -29,11 +34,16 @@ export const Enrutamiento = () => {
         <Route path="/download" component={DownloadPage} />
         <Route path="/blackclovercap1" component={Cap1Blackclover} />
         <Route path="/naruto" component={Naruto} />
+        <Route path="/narutocap1" component={Cap1Naruto} />
         <Route path="/dbz" component={Dbz} />
         <Route path="/bluelock" component={Bluelock} />
+        <Route path="/bluelockcap1" component={Cap1Bluelock} />
         <Route path="/onepiece" component={Onepiece} />
+        <Route path="/onepiececap1" component={Cap1Onepiece} />
         <Route path="/bokunohero" component={Bokunohero} />
         <Route path="/bleach" component={Bleach} />
+        <Route path="/bleachcap1" component={Cap1Bleach} />
+        <Route path="/bleachcap2" component={Cap2Bleach} />
         <Route path="/shingekinokyojin" component={Shingeki} />
         <Route path="/hajimenoippo" component={Ippo} />
         <Route path="/deathnote" component={Deathnote} />
