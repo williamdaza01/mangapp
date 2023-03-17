@@ -21,7 +21,7 @@ import { Cap2Bleach } from "./mangas/Bleach/Capitulos/cap2bleach";
 import { Cap1Naruto } from "./mangas/Naruto/Capitulos/narutocap1";
 import { Cap1Onepiece } from "./mangas/Onepiece/Capitulos/cap1onepiece";
 import { Cap1Bluelock } from "./mangas/Bluelock/Capitulos/cap1bluelock";
-
+import { Browser } from "./components/Browser/browser";
 export const Enrutamiento = () => {
   return (
     <BrowserRouter basename="/">
@@ -32,6 +32,7 @@ export const Enrutamiento = () => {
         <Route path="/blackclover" component={Blackcover} />
         <Route path="/profile" component={Profile} />
         <Route path="/download" component={DownloadPage} />
+        <Route path="/browser" component={Browser} />
         <Route path="/blackclovercap1" component={Cap1Blackclover} />
         <Route path="/naruto" component={Naruto} />
         <Route path="/narutocap1" component={Cap1Naruto} />
