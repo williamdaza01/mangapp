@@ -30,6 +30,7 @@ export const Items = [
     number: "4",
     date: "2000-21-05",
     ruta: "/blackclover",
+    categoria: "Shonen",
     image: imgblackclover,
   },
   {
@@ -41,6 +42,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/naruto",
+    categoria: "Shonen",
     image: imgnaruto,
   },
   {
@@ -52,6 +54,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/dbz",
+    categoria: "Shonen",
     image: imgdbz,
   },
   {
@@ -63,6 +66,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/bluelock",
+    categoria: "Shonen",
     image: imgbluelock,
   },
   {
@@ -74,6 +78,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/onepiece",
+    categoria: "Shonen",
     image: imgonepiece,
   },
   {
@@ -85,6 +90,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/bokunohero",
+    categoria: "Shonen",
     image: imgbokunohero,
   },
   {
@@ -96,6 +102,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/bleach",
+    categoria: "Shonen",
     image: imgbleach,
   },
   {
@@ -107,6 +114,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/shingekinokyojin",
+    categoria: "Seinen",
     image: imgshingeki,
   },
   {
@@ -118,6 +126,7 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/hajimenoippo",
+    categoria: "Spokon",
     image: imgippo,
   },
   {
@@ -129,10 +138,11 @@ export const Items = [
     number: "",
     date: "",
     ruta: "/deathnote",
+    categoria: "Seinen",
     image: imgdeathnote,
   },
   {
-    name: "Viland Saga",
+    name: "",
     id: 11,
     frontpage: "",
     description: "",

@@ -20,7 +20,8 @@ export const Bleach = () => {
         <ItemManga {...allitems[6]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/bleachcap1")}>Capitulo 1</Button>
+        <Button onClick={() => history.push("/bleachcap2")}>Capitulo 2</Button>
       </Box>
     </div>
   );

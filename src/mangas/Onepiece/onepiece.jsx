@@ -20,7 +20,9 @@ export const Onepiece = () => {
         <ItemManga {...allitems[4]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/onepiececap1")}>
+          Capitulo 1
+        </Button>
       </Box>
     </div>
   );

@@ -14,20 +14,44 @@ const Navbar = () => {
   const history = useHistory();
   return (
     <div className="navbar">
-      <ViewModule className="iconsbrowser" />
+      <a>
+        <ViewModule
+          className="iconsbrowser"
+          onClick={(e) => {
+            e.preventDefault();
+            history.push("/browser");
+          }}
+        />
+      </a>
       <Bookmark className="iconslista" />
-      <a> <Download className="iconsdescargas" onClick={(e) => {
-                e.preventDefault();
-                history.push("/download");         
-              }}  /></a>
-      <a><Home className="iconshome" onClick={(e) => {
-                e.preventDefault();
-                history.push("/home");         
-              }}  /></a>
-      <a><AccountCircle className="iconsuser" onClick={(e) => {
-                e.preventDefault();
-                history.push("/profile");         
-              }}   /></a>
+      <a>
+        {" "}
+        <Download
+          className="iconsdescargas"
+          onClick={(e) => {
+            e.preventDefault();
+            history.push("/download");
+          }}
+        />
+      </a>
+      <a>
+        <Home
+          className="iconshome"
+          onClick={(e) => {
+            e.preventDefault();
+            history.push("/home");
+          }}
+        />
+      </a>
+      <a>
+        <AccountCircle
+          className="iconsuser"
+          onClick={(e) => {
+            e.preventDefault();
+            history.push("/profile");
+          }}
+        />
+      </a>
     </div>
   );
 };
