@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Items } from "../../items";
 import Navbar from "../Navbar/Navbar";
 import { Navbarsup } from "../Navbar/navbarsup";
-import "./browser.css";
+import "./browserscss";
 
 export function Browser() {
   const [category, setCategory] = useState("todos");
