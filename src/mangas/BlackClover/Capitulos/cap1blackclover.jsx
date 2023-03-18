@@ -1,4 +1,4 @@
-import imagen from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page.jpg";
+import imagen1 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page.jpg";
 import imagen2 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page2.jpg";
 import imagen3 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page3.jpg";
 import imagen4 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page4.jpg";
@@ -60,7 +60,7 @@ export const Cap1Blackclover = () => {
   };
 
   const images = [
-    imagen,
+    imagen1,
     imagen2,
     imagen3,
     imagen4,

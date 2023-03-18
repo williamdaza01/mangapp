@@ -6,6 +6,7 @@
       border: 1px solid #000;
       overflow-y: auto;
       scroll-behavior: smooth;   
+      overflow-x: hidden;
 }
 .home::-webkit-scrollbar {
       display: none;
