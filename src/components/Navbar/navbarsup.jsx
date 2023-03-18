@@ -1,7 +1,7 @@
 import { Search } from "@material-ui/icons";
 import React from "react";
 import { Logo } from "../Logo";
-import "./navbarsup.css";
+import "./navbarsup.scss";
 
 export const Navbarsup = () => {
   return (

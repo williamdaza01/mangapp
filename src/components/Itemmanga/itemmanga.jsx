@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box } from "@material-ui/core";
-import "../Item/item.css";
-import "./itemmanga.css";
+import "../Item/item.scss";
+import "./itemmanga.scss";
 
 export const ItemManga = (Items) => {
   return (

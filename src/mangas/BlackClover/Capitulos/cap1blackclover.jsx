@@ -48,7 +48,7 @@ import imagen47 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page4
 import imagen48 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page48.jpg";
 import imagen49 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page49.jpg";
 import imagen50 from "../../../assets/images/imgcapmangas/Blackclover/Cap1/page50.jpg";
-import "../../capitulos.css";
+import "../../capitulos.scss";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";

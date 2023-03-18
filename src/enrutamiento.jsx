@@ -14,6 +14,7 @@ import { Bleach } from "./mangas/Bleach/bleach";
 import { Shingeki } from "./mangas/Shingeki/shingeki";
 import { Ippo } from "./mangas/Ippo/ippo";
 import { Deathnote } from "./mangas/Deathnote/deathnote";
+<<<<<<< HEAD
 import { Profile } from "./components/Profile/Profile";
 import { DownloadPage } from "./components/DownloadPage/DownloadPage";
 import { Cap1Bleach } from "./mangas/Bleach/Capitulos/cap1bleach";
@@ -22,6 +23,11 @@ import { Cap1Naruto } from "./mangas/Naruto/Capitulos/narutocap1";
 import { Cap1Onepiece } from "./mangas/Onepiece/Capitulos/cap1onepiece";
 import { Cap1Bluelock } from "./mangas/Bluelock/Capitulos/cap1bluelock";
 import { Browser } from "./components/Browser/browser";
+=======
+import { Profile } from './components/Profile/Profile';
+import { DownloadPage } from './components/DownloadPage/DownloadPage';
+
+>>>>>>> f009605368269ee6e553bb079bf2dd3b3f034c22
 export const Enrutamiento = () => {
   return (
     <BrowserRouter basename="/">
