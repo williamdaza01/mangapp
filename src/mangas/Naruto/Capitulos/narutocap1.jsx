@@ -57,11 +57,7 @@ import imagen56 from "../../../assets/images/imgcapmangas/Naruto/Cap1/image56.jp
 import imagen57 from "../../../assets/images/imgcapmangas/Naruto/Cap1/image57.jpg";
 import imagen58 from "../../../assets/images/imgcapmangas/Naruto/Cap1/image58.jpg";
 
-<<<<<<< HEAD
 import "../../capitulos.scss";
-=======
-import "../../capitulosscss";
->>>>>>> a990eec6d310e61c062a8879fdbc1a2f38444911
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";
