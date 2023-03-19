@@ -20,7 +20,7 @@ export const Dbz = () => {
         <ItemManga {...allitems[2]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/dbzcap1")}>Capitulo 1</Button>
       </Box>
     </div>
   );

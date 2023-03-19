@@ -20,7 +20,9 @@ export const Ippo = () => {
         <ItemManga {...allitems[8]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/hajimenoippocap1")}>
+          Capitulo 1
+        </Button>
       </Box>
     </div>
   );

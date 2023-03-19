@@ -58,7 +58,7 @@ import imagen57 from "../../../assets/images/imgcapmangas/Bleach/Cap1/image57.jp
 import imagen58 from "../../../assets/images/imgcapmangas/Bleach/Cap1/image58.jpg";
 import imagen59 from "../../../assets/images/imgcapmangas/Bleach/Cap1/image59.jpg";
 import imagen60 from "../../../assets/images/imgcapmangas/Bleach/Cap1/image60.jpg";
-import "../../capitulos.css";
+import "../../capitulos.scss";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";

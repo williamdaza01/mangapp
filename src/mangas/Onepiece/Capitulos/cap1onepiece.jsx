@@ -56,7 +56,7 @@ import imagen55 from "../../../assets/images/imgcapmangas/Onepiece/Cap1/image55.
 import imagen56 from "../../../assets/images/imgcapmangas/Onepiece/Cap1/image56.jpg";
 import imagen57 from "../../../assets/images/imgcapmangas/Onepiece/Cap1/image57.jpg";
 
-import "../../capitulos.css";
+import "../../capitulos.scss";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";

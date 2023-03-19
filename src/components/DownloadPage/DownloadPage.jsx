@@ -4,9 +4,8 @@ import Navbar from "../Navbar/Navbar";
 import { Navbarsup } from "../Navbar/navbarsup";
 import { useHistory } from "react-router-dom";
 
-
 export const DownloadPage = () => {
-    const history = useHistory();
+  const history = useHistory();
   return (
     <div className="home">
       <Navbarsup>

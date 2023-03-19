@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { Items } from "../../items";
 import Navbar from "../Navbar/Navbar";
 import { Navbarsup } from "../Navbar/navbarsup";
 import "./browser.css";
 
 export function Browser() {
+  const history = useHistory();
   const [category, setCategory] = useState("todos");
 
   const handleFiltroChange = (e) => {
@@ -30,7 +32,11 @@ export function Browser() {
       <ul>
         {filteredItems.map((item) => (
           <li key={item.id}>
-            <img src={item.frontpage} alt={item.name} />
+            <img
+              onClick={() => history.push(item.ruta)}
+              src={item.frontpage}
+              alt={item.name}
+            />
             <h2>{item.name}</h2>
           </li>
         ))}

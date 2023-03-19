@@ -8,6 +8,8 @@ import bleach from "./assets/images/bleach.jpg";
 import shingeki from "./assets/images/shingeki.jpg";
 import ippo from "./assets/images/ippo.jpg";
 import deathnote from "./assets/images/deathnote.jpg";
+import gogoloserrangers from "./assets/images/gogoloserrangers.jpg";
+import hunterxhunter from "./assets/images/hunterxhunter.jpg";
 
 import imgblackclover from "./assets/images/imgpagmnaga/Blackcloverportada.jpg";
 import imgnaruto from "./assets/images/imgpagmnaga/narutoperfil.jpg";
@@ -19,6 +21,8 @@ import imgbleach from "./assets/images/imgpagmnaga/bleachperfil.jpg";
 import imgshingeki from "./assets/images/imgpagmnaga/shingekiperfil.jpg";
 import imgippo from "./assets/images/imgpagmnaga/ippoperfil.jpg";
 import imgdeathnote from "./assets/images/imgpagmnaga/deathnote.jpg";
+import imgloserrangers from "./assets/images/imgpagmnaga/loserrangersperfil.jpg";
+import imghunterxhunter from "./assets/images/imgpagmnaga/hunterxhunterperfil.jpg";
 
 export const Items = [
   {
@@ -142,13 +146,28 @@ export const Items = [
     image: imgdeathnote,
   },
   {
-    name: "",
+    name: "Hunter x Hunter",
     id: 11,
-    frontpage: "",
-    description: "",
+    frontpage: hunterxhunter,
+    description:
+      "Hunter x Hunter es un anime y manga sobre un niño llamado Gon que quiere encontrar a su padre, quien es un cazador. Gon se hace amigo de otros cazadores y enfrentan desafíos juntos mientras exploran el mundo y buscan tesoros. La historia ha sido elogiada por sus personajes y temas profundos, pero también ha sido criticada por su ritmo lento y períodos de hiatus.",
     number: "",
     date: "",
-    pdf: "",
-    image: "",
+    ruta: "/hunterxhunter",
+    categoria: "Shonen",
+    image: imghunterxhunter,
+  },
+
+  {
+    name: "Sentai Daishikkaku",
+    id: 12,
+    frontpage: gogoloserrangers,
+    description:
+      "La historia sigue a cinco héroes de diferentes equipos de sentai que son enviados a un lugar donde se supone que deben trabajar juntos para salvar al mundo. Sin embargo, los héroes son todos personajes incompetentes y egoístas, y en lugar de trabajar juntos, compiten entre sí para demostrar quién es el mejor. A pesar de su comportamiento poco heroico, logran derrotar a los villanos y salvar al mundo de manera accidental.",
+    number: "",
+    date: "",
+    ruta: "/gogoloserranger",
+    categoria: "Seinen",
+    image: imgloserrangers,
   },
 ];
