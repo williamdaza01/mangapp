@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import { Items } from "../../items";
 import Navbar from "../Navbar/Navbar";
 import { Navbarsup } from "../Navbar/navbarsup";
-import "./browser.css";
+import "./browserscss";
 
 export function Browser() {
   const history = useHistory();
