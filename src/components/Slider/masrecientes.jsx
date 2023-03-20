@@ -29,7 +29,7 @@ export const MangaCarouselmasrecientes = () => {
         <Item {...allitems[8]} />
       </div>
       <div>
-        <Item {...allitems[9]} />
+        <Item {...allitems[10]} />
       </div>
     </Slider>
   );

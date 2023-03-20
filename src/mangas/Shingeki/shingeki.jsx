@@ -20,7 +20,9 @@ export const Shingeki = () => {
         <ItemManga {...allitems[7]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/shingekinokyojincap1")}>
+          Capitulo 1
+        </Button>
       </Box>
     </div>
   );

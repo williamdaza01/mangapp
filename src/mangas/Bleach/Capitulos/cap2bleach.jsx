@@ -23,7 +23,7 @@ import imagen22 from "../../../assets/images/imgcapmangas/Bleach/Cap2/image22.jp
 import imagen23 from "../../../assets/images/imgcapmangas/Bleach/Cap2/image23.jpg";
 import imagen24 from "../../../assets/images/imgcapmangas/Bleach/Cap2/image24.jpg";
 
-import "../../capitulosscss";
+import "../../capitulos.scss";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";
