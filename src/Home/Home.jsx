@@ -9,7 +9,6 @@ export const Home = () => {
   return (
     <div className="home">
       <Navbarsup />
-      <Navbar />
       <div className="container-carousel1">
         <label>Populares</label>
         <div className="populares">
@@ -30,6 +29,7 @@ export const Home = () => {
           <MangaCarousel />
         </div>
       </div>
+      <Navbar />
     </div>
   );
 };

@@ -22,6 +22,7 @@ import { Cap1Naruto } from "./mangas/Naruto/Capitulos/narutocap1";
 import { Cap1Onepiece } from "./mangas/Onepiece/Capitulos/cap1onepiece";
 import { Cap1Bluelock } from "./mangas/Bluelock/Capitulos/cap1bluelock";
 import { Browser } from "./components/Browser/browser";
+import { Busqueda } from "./components/Busqueda/Busqueda";
 import { Gogoloseranger } from "./mangas/GoGoLoserRangers/gogoloserrangers";
 import { Hunterxhunter } from "./mangas/HunterxHunter/hunterxhunter";
 import { Cap1Ippo } from "./mangas/Ippo/Capitulos/cap1ippo";
@@ -60,6 +61,7 @@ export const Enrutamiento = () => {
         <Route path="/hajimenoippo" component={Ippo} />
         <Route path="/hajimenoippocap1" component={Cap1Ippo} />
         <Route path="/deathnote" component={Deathnote} />
+        <Route path="/busqueda" component={Busqueda} />
         <Route path="/gogoloserranger" component={Gogoloseranger} />
         <Route path="/hunterxhunter" component={Hunterxhunter} />
         <Route path="/hunterxhuntercap1" component={Cap1HunterxHunter} />

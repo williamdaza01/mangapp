@@ -14,6 +14,11 @@ export const Profile = () => {
   const photo = localStorage.getItem("photo");
   const username = localStorage.getItem("nombreUserData");
 
+  const logout = () => {
+    localStorage.removeItem("isLoggedIn");
+    history.push("/");
+  };
+
   return (
     <div className="home">
       <Navbarsup>
@@ -29,6 +34,7 @@ export const Profile = () => {
         <p>Email: {email}</p>
         <p>Username: {username}</p>
         <p>Phone: {phone}</p>
+        <a onClick={() => history.push("/")}>Cerrar Sesion</a>
       </div>
       <Navbar></Navbar>
     </div>

@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import "./registro.scss";
+import { Navbarsup } from "./components/Navbar/navbarsup";
 
 export function Registro() {
   const [inputApellido, setinputApellido] = useState("");
@@ -64,35 +65,26 @@ export function Registro() {
   };
   const history = useHistory();
   return (
-    <div className="phone">
-      <div className="head">
+    <div className="singup">
+      <Navbarsup />
+      <ArrowBackIos
+        className="iconsarrowbackregistro"
+        onClick={() => history.push("/")}
+      ></ArrowBackIos>
+      <div className="container">
         <form onSubmit>
-          <ArrowBackIos
-            className="iconsarrowbackregistro"
-            onClick={() => history.push("/")}
-          ></ArrowBackIos>
-          <h1 className="logoo">スリーブ</h1>
-
           <b className="namereg">Usuario</b>
-          <input
-            className="inputreg1"
-            type="text"
-            onChange={handleInputChanges}
-          />
+          <input type="text" onChange={handleInputChanges} />
           <b className="lastnamereg">Apellido</b>
-          <input className="inputreg2" type="text" onChange={cambiosapellido} />
+          <input type="text" onChange={cambiosapellido} />
           <b className="userreg">Nombre Usuario</b>
-          <input className="inputreg3" type="text" onChange={cambioNUser} />
+          <input type="text" onChange={cambioNUser} />
           <b className="contraseñareg">Contraseña</b>
-          <input className="inputreg4" type="text" onChange={cambioscontra} />
+          <input type="text" onChange={cambioscontra} />
           <b className="vericontrareg">Verificacion Contraseña</b>
-          <input
-            className="inputreg5"
-            type="text"
-            onChange={cambiosvericontra}
-          />
+          <input type="text" onChange={cambiosvericontra} />
           <b className="emailreg">Email</b>
-          <input className="inputreg6" type="text" onChange={cambiosemail} />
+          <input type="text" onChange={cambiosemail} />
 
           <button className="buttonreg" onClick={savedData}>
             Registrar

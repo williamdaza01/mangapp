@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Items } from "../../items";
+import { Item } from "../Item/Item";
 import Navbar from "../Navbar/Navbar";
 import { Navbarsup } from "../Navbar/navbarsup";
-import "./browserscss";
+import "./browser.scss";
 
 export function Browser() {
   const history = useHistory();
@@ -20,7 +21,8 @@ export function Browser() {
 
   return (
     <div className="home">
-      <div>
+      <Navbarsup />
+      <div className="filter">
         <label htmlFor="filtro">Filtrar por:</label>
         <select id="filtro" onChange={handleFiltroChange}>
           <option value="todos">Todos</option>
@@ -29,18 +31,14 @@ export function Browser() {
           <option value="Spokon">Spokon</option>
         </select>
       </div>
-      <ul>
+      <div className="items_container">
         {filteredItems.map((item) => (
-          <li key={item.id}>
-            <img
-              onClick={() => history.push(item.ruta)}
-              src={item.frontpage}
-              alt={item.name}
-            />
-            <h2>{item.name}</h2>
-          </li>
+          <div className="item" key={item.id}>
+            <Item {...item}></Item>
+          </div>
+
         ))}
-      </ul>
+      </div>
       <Navbar></Navbar>
     </div>
   );
