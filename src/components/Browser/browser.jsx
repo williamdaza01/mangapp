@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { Items } from "../../items";
 import { Item } from "../Item/Item";
 import Navbar from "../Navbar/Navbar";
@@ -6,6 +7,7 @@ import { Navbarsup } from "../Navbar/navbarsup";
 import "./browser.scss";
 
 export function Browser() {
+  const history = useHistory();
   const [category, setCategory] = useState("todos");
 
   const handleFiltroChange = (e) => {
@@ -34,6 +36,7 @@ export function Browser() {
           <div className="item" key={item.id}>
             <Item {...item}></Item>
           </div>
+
         ))}
       </div>
       <Navbar></Navbar>

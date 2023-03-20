@@ -20,7 +20,7 @@ export const Deathnote = () => {
         <ItemManga {...allitems[9]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button>Proximamente</Button>
       </Box>
     </div>
   );

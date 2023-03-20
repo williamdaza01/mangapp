@@ -20,7 +20,9 @@ export const Bokunohero = () => {
         <ItemManga {...allitems[5]} />
       </div>
       <Box className="cuadrodeopciones">
-        <Button>Capitulo 1</Button>
+        <Button onClick={() => history.push("/bokunoherocap1")}>
+          Capitulo 1
+        </Button>
       </Box>
     </div>
   );
