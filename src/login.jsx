@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
 import { useRef } from "react";
 import "./login.scss";
 import { useHistory } from "react-router-dom";
+import { Navbarsup } from "./components/Navbar/navbarsup";
 
 export function Login() {
   const history = useHistory();
@@ -25,13 +26,12 @@ export function Login() {
   };
 
   return (
-    <div className="phone">
-      <div className="head">
+    <div className="login">
+      <Navbarsup />
+      <div className="container">
         <form onSubmit>
-          <h1 className="logoo">スリーブ</h1>
           <b className="email">Email o Correo</b>
           <input className="input1" type="text" ref={email} />
-
           <b className="contraseña">Contraseña</b>
           <input className="input2" type="password" ref={contraseña} />
           <button

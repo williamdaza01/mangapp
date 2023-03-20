@@ -1,0 +1,30 @@
+.resultus_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    img{
+        width: 120px;
+        height: 100%;
+    }
+    label{
+        display: none;
+    }
+    .item-container{
+        margin: 5px;
+    }
+}
+
+.search_container{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    input{
+        height: 0;
+    }
+    button{
+        background-color: black;
+    }
+    button:hover{
+        background-color: #D9D9D9;
+    }
+}

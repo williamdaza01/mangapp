@@ -74,7 +74,7 @@ import imagen73 from "../../../assets/images/imgcapmangas/Bluelock/Cap1/image73.
 import imagen74 from "../../../assets/images/imgcapmangas/Bluelock/Cap1/image74.jpg";
 import imagen75 from "../../../assets/images/imgcapmangas/Bluelock/Cap1/image75.jpg";
 
-import "../../capitulosscss";
+import "../../capitulos.scss";
 import { ArrowBackIos } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import { Box } from "@material-ui/core";
