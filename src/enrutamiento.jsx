@@ -33,7 +33,7 @@ import { Cap1Shingeki } from "./mangas/Shingeki/Capitulos/cap1shingeki";
 
 export const Enrutamiento = () => {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/mangapp">
       <Switch>
         <Route exact path="/" component={Login} />
         <Route path="/registro" component={Registro} />

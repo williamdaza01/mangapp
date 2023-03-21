@@ -9,22 +9,22 @@ export const Home = () => {
   return (
     <div className="home">
       <Navbarsup />
-      <div className="container-carousel1">
-        <label>Populares</label>
+      <div className="container-carousel">
+        <label className="label_carousel">Populares</label>
         <div className="populares">
           <MangaCarousel />
         </div>
       </div>
       <br />
-      <div className="container-carousel2">
-        <label>Mas Recientes</label>
+      <div className="container-carousel">
+        <label className="label_carousel">Mas Recientes</label>
         <div className="masrecientes">
           <MangaCarouselmasrecientes />
         </div>
       </div>
       <br />
-      <div className="container-carousel3">
-        <label htmlFor="">Top Shonen</label>
+      <div className="container-carousel">
+        <label className="label_carousel" htmlFor="">Top Shonen</label>
         <div className="topshonen">
           <MangaCarousel />
         </div>
