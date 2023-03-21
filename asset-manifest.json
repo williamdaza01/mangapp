@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mangapp/static/css/main.8424ecfa.css",
-    "main.js": "/mangapp/static/js/main.b15ea6ac.js",
+    "main.css": "/mangapp/static/css/main.e86f9767.css",
+    "main.js": "/mangapp/static/js/main.670d30ac.js",
     "static/media/image7.jpg": "/mangapp/static/media/image7.f428dd9c10d6eec6f3d6.jpg",
     "static/media/image.jpg": "/mangapp/static/media/image.e7ac53674d6b160c6198.jpg",
     "static/media/image34.jpg": "/mangapp/static/media/image34.8f6f4f6de1dd4a2f0724.jpg",
@@ -156,11 +156,11 @@
     "static/media/slick.ttf": "/mangapp/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mangapp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mangapp/index.html",
-    "main.8424ecfa.css.map": "/mangapp/static/css/main.8424ecfa.css.map",
-    "main.b15ea6ac.js.map": "/mangapp/static/js/main.b15ea6ac.js.map"
+    "main.e86f9767.css.map": "/mangapp/static/css/main.e86f9767.css.map",
+    "main.670d30ac.js.map": "/mangapp/static/js/main.670d30ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.8424ecfa.css",
-    "static/js/main.b15ea6ac.js"
+    "static/css/main.e86f9767.css",
+    "static/js/main.670d30ac.js"
   ]
 }
