@@ -61,6 +61,7 @@ export function Registro() {
       localStorage.setItem("verificontraseñaData", inputVerificacioncontraseña);
       localStorage.setItem("emailData", inputEmail);
       alert("guardado");
+      history.push("/home");
     }
   };
   const history = useHistory();
